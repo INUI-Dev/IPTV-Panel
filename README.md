@@ -54,11 +54,7 @@
                         <p>Also you can earn money from advertisements from adsense or any other add provider</p>
                         <p>You set ads in admin and will show on all your front-end pages</p>
                      </div>
-<p>&nbsp;</p></div><div class="main-title">
-                      <p>&nbsp;</p>
-                      <hr width="70%">
-                      
-</div></div>
+<p>&nbsp;</p></div>
                  <div class="col-md-7 col-sm-6 col-xs-12"> <div class="main-title">
                       <h3>Live WITHOUT Limits</h3>
                       <div class="seperator"></div>
