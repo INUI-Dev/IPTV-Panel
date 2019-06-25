@@ -1,1 +1,1 @@
-# IPTV-Panel
+# IPTV-Panel - http://in2iptv.com
