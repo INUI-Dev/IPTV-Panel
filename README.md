@@ -1,89 +1,10 @@
 # IPTV-Panel - http://in2iptv.com
 
-<body data-gr-c-s-loaded="true"><div class="wrapper">
-        <header class="header-wrapper gradient-bg polyline-bg">
-            <nav class="navbar navbar-default navbar-fixed white bootsnav on no-full">
-                <!-- Start Top Search -->
-                <div class="top-search">
-                    <div class="container">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="fa fa-search"></i></span>
-                            <input type="text" class="form-control" placeholder="Search">
-                            <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
-                        </div>
-                    </div>
-                </div>
-                <!-- End Top Search -->
-                <div class="container-fluid"> 
-                    <!-- Start Atribute Navigation -->
-                           
-                    <!-- End Atribute Navigation -->
-                    <!-- Start Header Navigation -->
-                    <div class="navbar-header">
-                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
-                            <i class="fa fa-bars"></i>
-                        </button>
-                        <a class="navbar-brand" href="#brand">
-
-                            <img src="/images/logo.png" class="logo logo-display" alt="PHP iptv Panel">
-                            <img src="/images/logo.png" class="logo logo-scrolled" alt="php iptv panel">
-
-                        </a>
-                    </div>
-                    <!-- End Header Navigation -->
-
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="navbar-menu">
-
-                        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
-                              <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home"><a href="/">Home</a></li>
-                              <li class="dropdown"> <a href="/pricing.html"> Pricing</a></li>                                                         
-                                  <li><a href="/demo.html"> Demo</a></li>
-                                  <li><a href="/features.html">Features</a></li>
-                                  <li><a href="/fixes-and-updates.html">Blog</a></li>
-                            <li class="dropdown"> <a href="/support.html">Support</a> </li>
-                                  <li><a href="/account.html">Account</a></li> 
-                                  <li><a href="/basket.html">Checkout</a></li>
-                      </ul>
-                  </div><!-- /.navbar-collapse -->
-</div>
-                
-                
-            </nav>
-            <!-- End Navigation -->
-
-            <div class="container-fluid">
-                <div class="row banner-content">
-                    <div class="banner-meta">
-                        <h1>PHP Iptv Panel</h1>
-                      <p class="lead">In2iptv PHP Iptv panel</p>
-                      <a href="/pricing.html" class="btn btn-theme-primary">Purchase iptv panel</a>
-</div>
-                    <span class="banner-image">
-                        <img src="/themes/art/images/web-app.png" alt="image" class="img-responsive">
-                    </span>
-              </div>
-            </div><!-- End Container -->
-        </header><!-- End Header -->
-        <!-- ==============================================
-                     **PARTNERS**
-        =============================================== -->
-        <section id="partners" class="ptb-30 bg-gray">
-            <h2 class="hidden">Partners</h2>
-            <div class="container">
-              <div class="row" align="center">
-                <h2><script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- in2streams -->
-<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4579602742595312" data-ad-slot="1912793884" data-ad-format="auto" data-full-width-responsive="true"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>  </h2>
-              </div>
-            </div><!-- End Container -->
-        </section><!-- End Section -->
-        <!-- ==============================================
+       <!-- ==============================================
                      **FUNCTIONALITIES**
         =============================================== -->
+        
+        
         <section class="ptb-100 functionalities bg-white">
             <div class="container">
                 <div class="row"><div><div class="main-title">
