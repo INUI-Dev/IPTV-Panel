@@ -1,8 +1,6 @@
 # IPTV-Panel - http://in2iptv.com
-   
-        <section class="ptb-100 functionalities bg-white">
-            <div class="container">
-                <div class="row"><div><div class="main-title">
+
+<div class="row"><div><div class="main-title">
                       <h3>Welcome to in2iptv.com                 </h3>
                       <div class="seperator"></div></div>
                  <p>Iptv admin panel with support for most devices.</p>
@@ -45,8 +43,7 @@
                         <div class="seperator"></div>
                         <p>Get your download within 2 minutes of purchase</p>
                       </div>
-
-                   <div class="main-title">
+ <div class="main-title">
                         <h3>Earning money</h3>
                      <div class="seperator"></div>
                      <p>You can earn money by selling iptv plans.</p>
