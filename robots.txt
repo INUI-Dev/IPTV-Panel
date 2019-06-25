@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: /login.php
+Disallow: /basket.html

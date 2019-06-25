@@ -1,0 +1,114 @@
+body
+{
+	padding:0px; margin:0px;
+	text-align:center;
+}
+
+h1
+{
+	background-color: rgba(82,96,117,0.5);
+	-webkit-background-clip: text;
+	color: transparent;
+	text-shadow: rgba(255,255,255,0.5) 0 5px 6px;
+	margin:0px auto;
+	margin-top:20px;
+	font-family:"Dancing Script", Helvetica, Arial;
+	font-weight:bold;
+	font-size:66px;
+	border-top:1px dashed #dfdfdf;
+	border-bottom:1px dashed #dfdfdf;
+	padding:20px;
+	width:700px;
+	text-align:center;
+}
+
+#createdby
+{
+	background-color: rgba(82,96,117,0.5);
+	-webkit-background-clip: text;
+	color: transparent;
+	text-shadow: rgba(255,255,255,0.5) 0 5px 6px;
+	margin:15px auto;
+	font-family:"Dancing Script", Helvetica, Arial;
+	font-weight:bold;
+	font-size:16px;
+	padding:0px;
+	display:block;
+}
+
+
+#createdby a
+{
+	font-family:Lucida Grande, Helvetica, Georgia;
+	font-size:11px;
+	line-height:5px;
+	display:inline-table;
+	color:#bec3ca;
+}
+
+.button
+{
+	width:auto;
+	padding:16px;
+	display:inline-table;
+	font-family: Lucida Grande, Helvetica, Arial;
+	font-size:14px;
+	font-weight:normal;
+	color:#787878;
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0, rgb(195,200,206)),
+	    color-stop(1, rgb(239,239,239))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(195,200,206) 0%,
+	    rgb(239,239,239) 100%
+	);
+	
+	border:1px solid #cccccc;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	cursor:pointer;
+	margin:0px 10px;
+	text-decoration:none;
+
+}
+
+.button:hover
+{
+	background-image: -webkit-gradient(
+	    linear,
+	    left bottom,
+	    left top,
+	    color-stop(0, rgb(120,120,120)),
+	    color-stop(1, rgb(152,152,159))
+	);
+	background-image: -moz-linear-gradient(
+	    center bottom,
+	    rgb(120,120,120) 0%,
+	    rgb(152,152,159) 100%
+	);
+	
+	color:#f5f5f5;
+	border:1px solid #787878;
+}
+
+.button a
+{
+	text-decoration: none;
+}
+
+#buttons
+{
+	width:700px;
+	margin:0px auto;
+	margin-top:20px;
+	padding:20px;
+	border-top:1px dashed #dfdfdf;
+	border-bottom:1px dashed #dfdfdf;
+}
+

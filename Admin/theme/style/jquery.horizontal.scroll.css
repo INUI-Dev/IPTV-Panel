@@ -1,0 +1,134 @@
+/**************************************************
+*
+*	CONTAINER STYLES
+*
+**************************************************/
+
+#horiz_container_outer
+{
+	width:800px;
+	overflow-x:hidden;
+	overflow-y:hidden;
+	position:relative;
+	height:310px;
+	margin:5px auto;
+	
+	border:1px solid #cccccc;
+}
+
+#horiz_container
+{
+	width:4040px;
+	margin:0px;
+	padding:0px;
+	height:300px;
+}
+
+#horiz_container ul
+{
+	margin:0px; padding:0px;
+	float:left;
+}
+
+#horiz_container_inner
+{
+	padding:5px;
+	padding-left:0px;
+}
+
+#horiz_container li
+{
+	list-style:none;
+	display: inline-table;
+	margin:0px;
+}
+
+#horiz_container li img
+{
+	padding:0px;
+	margin:0px;
+}
+
+
+
+
+/**************************************************
+*
+*	SCROLLING STYLES
+*
+**************************************************/
+
+#scrollbar 
+{ 
+    position:relative; 
+    width:815px; height:12px;
+    display:block;
+    font-size:1px;
+    top:0px;
+    margin:0px auto;
+}
+
+#track 
+{ 
+    position:absolute; left:0px; top:0;
+    width:815px; height:12px; 
+    background: #676767;
+    -webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+#dragBar 
+{
+    position:absolute; left:0px; top:0px;
+    width:20px; height:10px; 
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	background-color: red;
+background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.39, rgb(229,229,229)),
+    color-stop(0.7, rgb(245,245,245))
+);
+background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(229,229,229) 39%,
+    rgb(245,245,245) 70%
+);
+
+}  
+  
+#left_scroll
+{ 
+	position:absolute; 
+	border-color: transparent gray transparent transparent;
+	border-style: solid;
+	border-width: 5px;
+	width: 0;
+	height: 0px;
+	cursor:pointer;
+	top:1px;
+	left:-15px;
+}  
+
+#right_scroll 
+{ 
+	position:absolute; 
+	right:-15px; 
+	top:1px;
+	border-color: transparent transparent transparent gray;
+	border-style: solid;
+	border-width: 5px;
+	width: 0;
+	height: 0px;
+	cursor:pointer;
+}
+
+/* Prevent selection problem */
+#scrollbar, #track, #dragBar, #left, #right {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+}

@@ -1,0 +1,1 @@
+<?php header('Location: http://tv.in2iptv.com/stalker_portal/c');exit;

@@ -1,0 +1,31 @@
+RewriteEngine On
+ Options -Indexes 
+RewriteRule ^categories.html?$ categories.php [NC,L]
+RewriteRule ^genres.html?$ genre.php [NC,L]
+
+RewriteRule ^artist.html?$ artist.php [NC,L]
+RewriteRule ^videos.html?$ videos.php [NC,L]
+
+RewriteRule ^download-file/([0-9-A-Z-.]+)?$ download_file.php?display=$1 [NC,L]
+RewriteRule ^free-vod.html?$ vod.php [NC,L]
+RewriteRule ^files.html?$ files.php [NC,L]
+RewriteRule ^account.html?$ account.php [NC,L]
+RewriteRule ^contact-us.html?$ contact.php [NC,L]
+RewriteRule ^file/([0-9-A-Z-.]+)?$ file.php?id=$1 [NC,L]
+RewriteRule ^product/([0-9-A-Z-.]+)?$ file.php?id=$1 [NC,L]
+RewriteRule ^categories/([0-9-A-Z-.]+)?$ categories.php?id=$1 [NC,L]
+RewriteRule ^support/([0-9-A-Z-.]+)?$ support.php?url=$1 [NC,L]
+RewriteRule ^download/([0-9-A-Z-.]+)/([0-9-A-Z-.]+)?$ download_file.php?id=$1&name=$2 [NC,L]
+RewriteRule ^iptv/([0-9-A-Z-.]+)/([0-9-A-Z-.]+)/([0-9-A-Z-.]+)?$ iptv.php?user=$1&pass=$2&list=$3 [NC,L]
+RewriteRule ^smart/([0-9-A-Z-.]+)/([0-9-A-Z-.]+)/([0-9-A-Z-.]+)?$ iptv.php?user=$1&pass=$2&list=$3 [NC,L]
+RewriteRule ^file.html?$ file.php [NC,L]
+RewriteRule ^basket.html?$ view_basket.php [NC,L]
+RewriteRule ^support.html?$ all_support.php [NC,L]
+RewriteRule ^post-review.html?$ post_review.php [NC,L]
+RewriteRule contact.html?$ /contact.php [NC,L]
+RewriteRule ^search.html?$ search.php [NC,L]
+RewriteRule ^free-streams.html?$ free-streams.php [NC,L]
+RewriteRule ^iptv-builder.html?$ iptv-builder.php [NC,L]
+RewriteRule ^live.html?$ live.php [NC,L]
+
+RewriteRule ^iptv.m3u?$ iptv.php [NC,L]
