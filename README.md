@@ -1,10 +1,5 @@
 # IPTV-Panel - http://in2iptv.com
-
-       <!-- ==============================================
-                     **FUNCTIONALITIES**
-        =============================================== -->
-        
-        
+   
         <section class="ptb-100 functionalities bg-white">
             <div class="container">
                 <div class="row"><div><div class="main-title">
