@@ -1,4 +1,4 @@
-# IPTV-Panel - http://in2iptv.com
+# IPTV-Panel - Nulled and provided by https://inui.xyz 
 
 <span class="banner-image">
                         <img src="https://in2iptv.com/themes/art/images/web-app.png" alt="image" class="img-responsive">
